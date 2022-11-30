@@ -5,12 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ANOGRAM</title>
+    <link rel="stylesheet" href="node_modules/metro4/build/css/metro-all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="anogram">
-        <h1 id="title">ANOGRAM</h1>
-        <p>Powered by Electron</p>
+    <div data-role="appbar" data-expand="true" class=""> 
+        <ul class="app-bar-menu">
+            <li><b><a href="#">ANOGRAM</a></b></li>
+            <li>
+                <a href="#" class="no-hover">Actions</a>
+                <ul class="d-menu" data-role="dropdown">
+                    <li><a href="#">Action 1</a></li>
+                    <li><a href="#">Action 1</a></li>
+                    <li class="divider bg-lightGray"></li>
+                    <li><a href="#">Info</a></li>
+                </ul>
+            </li>
+        </ul>
     </div>
+    <div id="anogram" data-role="splitter" class="h-100" data-split-sizes="40, 40,20" data-min-sizes="200, 200, 100">
+        <div class="d-flex flex-justify-center flex-align-center">Graph View</div>
+        <div data-role="splitter" data-split-mode="vertical" data-split-sizes="60, 40" data-min-sizes="400, 200">
+            <div class="d-flex flex-justify-center flex-align-center">Render Output</div>
+            <div class="d-flex flex-justify-center flex-align-center">Console</div>
+        </div>
+        <div class="d-flex flex-justify-center flex-align-center">Inspector</div>
+    </div>
+
+    <script src="node_modules/metro4/build/js/metro.min.js"></script>
 </body>
 </html>
