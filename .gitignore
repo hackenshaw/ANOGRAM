@@ -129,6 +129,9 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
+# VSCode
+.vscode/
+
 # MacOS hidden folder
 .DS_Store
 

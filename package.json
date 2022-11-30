@@ -1,10 +1,13 @@
 {
   "name": "anogram",
+  "productName": "ANOGRAM",
   "version": "0.0.1",
   "description": "Another program to do something vaguely defined",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
   },
   "repository": {
     "type": "git",
@@ -17,6 +20,14 @@
   },
   "homepage": "https://github.com/hackenshaw/anogram#readme",
   "devDependencies": {
+    "@electron-forge/cli": "^6.0.3",
+    "@electron-forge/maker-deb": "^6.0.3",
+    "@electron-forge/maker-rpm": "^6.0.3",
+    "@electron-forge/maker-squirrel": "^6.0.3",
+    "@electron-forge/maker-zip": "^6.0.3",
     "electron": "^22.0.0"
+  },
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.0"
   }
 }
