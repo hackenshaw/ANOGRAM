@@ -1,0 +1,22 @@
+{
+  "name": "anogram",
+  "version": "0.0.1",
+  "description": "Another program to do something vaguely defined",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hackenshaw/anogram.git"
+  },
+  "author": "Mackenzie Hackenshaw",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hackenshaw/anogram/issues"
+  },
+  "homepage": "https://github.com/hackenshaw/anogram#readme",
+  "devDependencies": {
+    "electron": "^22.0.0"
+  }
+}
