@@ -1,6 +1,6 @@
 # ANOGRAM
 
-What `ANOGRAM` *is* and what it *does* is yet to be defined, but it will some kind of node-based editor for prototyping, learning, and coding
+What `ANOGRAM` *is* and what it *does* is yet to be defined, but it will be some kind of node-based editor for prototyping, learning, and coding
 
 # TODO
 
